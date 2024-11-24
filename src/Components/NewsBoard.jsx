@@ -15,7 +15,7 @@ const NewsBoard = ({ category }) => {
   }, [category]);
   return (
     <div>
-      <h2 className="text-center py-2">
+      <h2 className="text-center py-3">
         Latest <span className="badge bg-danger">News</span>
       </h2>
       <div className="news-items-cont d-flex flex-wrap align-items-center justify-content-center">
